@@ -2,18 +2,18 @@
 #include<conio.h>
 void main()
 {
-int a,b;
+int num;
 pritnf("Enter any number");
-scanf("%d",&a);
-if(a>=0)
+scanf("%d",&num);
+if(num>=0)
 {
 printf("Positive");
 }
-if(a<=0)
+if(num<=0)
 {
 printf("Negative");
 }
-if(a==0)
+if(num==0)
 {
 printf("Zero");
 }
